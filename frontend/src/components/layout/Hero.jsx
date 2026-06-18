@@ -15,6 +15,7 @@ function Hero() {
     Explore our vacation-ready outfits with fast worldwide shipping.
     </p>
     <Link to="#" className="bg-white text-gray-950 px-6 py-2 rounded-sm text-lg">
+    
     </Link>
         </div>
         </div>
