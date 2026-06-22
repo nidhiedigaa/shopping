@@ -4,6 +4,8 @@ import GenderCollectionSection from '../components/products/GenderCollectionSect
 import NewArrivals from '../components/products/NewArrivals'
 import ProductDetails from '../components/products/ProductDetails'
 import ProductGrid from '../components/products/ProductGrid'
+import FeaturedCollection from '../components/products/FeaturedCollection'
+import FeaturedSection from '../components/products/FeaturedSection'
 
 const placeholderProducts=[
      {
@@ -74,7 +76,8 @@ const placeholderProducts=[
 function Home() {
   return (
     <>
-    <Hero></Hero>
+<div>
+        <Hero></Hero>
     <GenderCollectionSection></GenderCollectionSection>
     <NewArrivals></NewArrivals>
     <h2 className='text-3xl text-center font-bold mb-4'>Best Seller</h2>
@@ -85,6 +88,9 @@ function Home() {
     </h2>
     <ProductGrid products={placeholderProducts}></ProductGrid>
     </div>
+    <FeaturedCollection></FeaturedCollection>
+    <FeaturedSection></FeaturedSection>
+</div>
     </>
   )
 }
